@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(photos/gym.jpg);
+}
+.left{
+    display: inline;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    /* border: 2px solid red; */
+    color: aliceblue;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 2px solid red; */
+    color: aliceblue;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: 20px 550px;
+    /* border: 2px solid red; */
+    color: aliceblue;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    display: inline-block;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 12px 12px;
+    font-size: 24px;
+    
+}
+.navbar li a:hover{
+    color: blue;
+}
+.left img{
+    width: 83px;
+   
+}
+.left div{
+    text-align: center;
+}
+.btn{
+    margin: 0px 5px;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+}
+.container{
+    color: aliceblue;
+    /* color: aliceblue; */
+    /* border: 2px solid red; */
+    margin: 73px 746px;
+    padding: 83px 19px;
+    width: 33%;
+    border-radius: 2px;
+}
+.container h1{
+    display: block;
+    width: 300%;
+}
+.form-group input{
+    display: block;
+    padding: 20px 10px;
+    width: 50%;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+    cursor: pointer;
+}
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="photos/dumbal.jpg" alt="">
+            <div>vish gym</div>
+        </div>
+        <div class="right">
+            <button class="btn">Contact us</button>
+            <button class="btn">Email us</button>
+        </div>
+        <div class="mid">
+           <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Gym</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+        </div>
+    </header>
+    <div class="container">
+       <h1> Join the best gym of Anchepalya now. </h1>
+       <form action="noaction.php">
+        <div class="form-group">
+            <input type=" " placeholder="Enter your name">
+            <input type=" " placeholder="Enter your phone number">
+            <input type=" " placeholder="Enter your email">
+            <input type=" " placeholder="Enter your gender">
+        </div>
+        <button class="button">Submit</button>
+       </form>
+    </div>
+</body>
+</html>
